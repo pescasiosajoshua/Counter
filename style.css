@@ -1,0 +1,63 @@
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+/* Buttons */
+button {
+    font-size: 1rem;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+/* Increment Button */
+#increment-btn {
+    background-color: #28a745;
+    color: white;
+}
+#increment-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Save Button */
+#save-btn {
+    background-color: #007bff;
+    color: white;
+}
+#save-btn:hover {
+    background-color: #0069d9;
+    transform: scale(1.05);
+}
+
+/* Saved entries text */
+p {
+    font-size: 1.1rem;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
